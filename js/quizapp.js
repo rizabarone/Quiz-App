@@ -4,9 +4,9 @@ var curPage = 0,
     correct = 0;
 var myAnswers = [];
 var myQuiz = [
-    ["What is the color of an apple?", 1, "white", "blue", "black", "red"],
+    ["How many states does United States of America have?", 4, "60", "40", "30", "50"],
     ["Who is the president of the United States of America?", 1, "Barack Obama ", "George Washington", "Ronald Reagan", "Bill Clinton"],
-    ["When was America founded ", 2, "1800", "1776", "1876", "1676"]
+    ["When was America founded? ", 2, "1800", "1776", "1876", "1676"]
 ];
 var myHeader = document.getElementById("quizHeader");
 var classname = document.getElementsByClassName("answer");
